@@ -18,8 +18,6 @@ Esta é uma solução para o [desafio da página inicial do Room no Frontend Men
 
 ## Visão geral
 
-
-
 ### O desafio
 
 O desafio consiste em criar uma página inicial responsiva para um site de decoração de interiores, onde os usuários podem ver o layout ideal do site dependendo do tamanho da tela do dispositivo, interagir com os elementos e navegar pelo controle deslizante.
@@ -30,8 +28,8 @@ O desafio consiste em criar uma página inicial responsiva para um site de decor
 
 ###Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://your-live-site-url.com)
+- [URL da solução](https://www.frontendmentor.io/solutions/room-homepage-master-IoTzGYeIvs)
+- [URL do site ativo](https://room-homepage-solution.netlify.app/)
 
 ## Meu processo
 
