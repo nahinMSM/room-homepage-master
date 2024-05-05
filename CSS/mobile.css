@@ -1,0 +1,156 @@
+@media (max-width: 800px) {
+  main {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .headerMobile {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 375px;
+    height: 100px;
+    margin: 0 auto;
+    gap: 100px;
+    z-index: 99;
+    transition: 0.3s;
+  }
+
+  .icon {
+    margin-left: 30px;
+  }
+
+  .icon .hamburger {
+    display: block;
+    transition: 0.5s;
+  }
+
+  .icon .close {
+    display: none;
+  }
+
+  .menuMobile {
+    display: none;
+    width: 240px;
+    margin-left: -40px;
+  }
+
+  .menuMobile div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menuMobile a {
+    text-decoration: none;
+    color: var(--Black);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .BG-headerMobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 375px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.644);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .BG-menu {
+    width: 375px;
+    height: 100px;
+    background-color: var(--White);
+  }
+
+  main {
+    margin: 0 auto;
+    max-width: 375px;
+  }
+
+  .section {
+    width: 375px;
+    overflow-x: hidden;
+  }
+
+  .contener-1,
+  .contener-2,
+  .contener-3 {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aside {
+    width: 375px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aside img {
+    max-width: 375px;
+  }
+
+  .aside .imform-2 {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 50px 0;
+    width: 305px;
+  }
+
+  .contener-1 .img-hero-1,
+  .contener-2 .img-hero-2,
+  .contener-3 .img-hero-3 {
+    display: none;
+  }
+
+  .contener-1 .mobile-hero-1,
+  .contener-2 .mobile-hero-2,
+  .contener-3 .mobile-hero-3 {
+    display: block;
+  }
+
+  .inform-1,
+  .inform-2,
+  .inform-3 {
+    width: 375px;
+    padding-bottom: 100px;
+    padding-left: 0;
+  }
+
+  .inform-1 h1,
+  .inform-1 p,
+  .inform-1 button,
+  .inform-2 h1,
+  .inform-2 p,
+  .inform-2 button,
+  .inform-3 h1,
+  .inform-3 p,
+  .inform-3 button {
+    margin-left: 40px;
+  }
+
+  .bts {
+    position: absolute;
+    height: 55px;
+    top: 20%;
+    right: -25px;
+  }
+
+  .bts button {
+    padding: 0 30px;
+  }
+
+  .bts img {
+    height: 20px;
+  }
+}
